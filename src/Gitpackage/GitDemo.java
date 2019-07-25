@@ -1,7 +1,10 @@
 package Gitpackage;
 
+import org.testng.annotations.Test;
+
 public class GitDemo {
-	public static void main(String[] args) {
+	@Test
+	public void test() {
 		System.out.println("sample git ");
 	}
 }
